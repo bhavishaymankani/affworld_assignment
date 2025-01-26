@@ -35,5 +35,9 @@ app.use('/api/feed', feedRoutes);
 const uploadRoutes = require('./routes/uploadRoutes');
 app.use('/api', uploadRoutes);
 
+app.get('/api/test', (req, res) => {
+  res.send( "It's working!" );
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
