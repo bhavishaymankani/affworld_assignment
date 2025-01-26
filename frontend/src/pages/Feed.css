@@ -1,0 +1,82 @@
+/* Feed container styling */
+.feed-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add Post button */
+  .add-post-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Grid layout for posts */
+  .feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .feed-list {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .feed-item {
+    position: relative;
+  }
+  
+  .feed-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .feed-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+  }
+  
+  .feed-caption {
+    padding: 10px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Drop area styling */
+  .drop-area {
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .drop-area:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Preview image styling */
+  .preview-img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .drop-text {
+    color: #555;
+    font-size: 16px;
+  }
+  
