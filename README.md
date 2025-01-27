@@ -14,15 +14,14 @@ The frontend is built using React.js, styled with Bootstrap for responsiveness.
 
 ## Steps to Run the Project
 
-### 1. Clone the repositor
+### .1 Clone the repository
 Clone this repository to your local machine using the following command:
-```bash
 git clone https://github.com/bhavishaymankani/affworld_assignment.git
 
-**### 2. Install necessary dependencies in frontend & backend.**
+### 2. Install necessary dependencies in frontend & backend.
 Dependemcies like clodinary, mangoose, React dnd, bcrypt, jwt,nodemon, crypto,etc
 
-**### 3. Set up environment variables**
+### 3. Set up environment variables
 Create a .env file in the backend directory
 MONGO_URI=mongodb+srv://<MONGO_USERNAME>:<MONGO_PASSWORD>@cluster0.czo62.mongodb.net/affworld?retryWrites=true&w=majority&appName=Cluster0
 
@@ -43,9 +42,9 @@ EMAIL_PASS=<YOUR_EMAIL_PASSWORD>
 BASE_URL=<YOUR_BASE_URL>
 CLIENT_URL=<YOUR_CLIENT_URL>
 
-**### 4. Run the backend server with nodemon**
+### 4. Run the backend server with nodemon
 nodemon server.js
 
-**### 5. Run the frontend development server**
+### 5. Run the frontend development server
 npm start
    
